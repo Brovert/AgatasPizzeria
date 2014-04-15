@@ -1,0 +1,23 @@
+1) Ask Why don't you test?
+
+
+2) Why Test?
+	- In the long run saves time and money. Manual testing is slow and time consuming when you repeat them.
+	- Way to document your code
+		- Looking tests in the future or as a new developer lets you know how something works. No need to go through the code and figure it out.
+	- Prevents future errors when doing code refactors
+	- It helps you think through each acceptance criteria
+		- By breaking down into smaller chunks
+	- The code becomes more stable.
+	- Running a test is much faster than debugging. Making it faster to write efficient code.
+	- Reduces frustration, by reducing bounce backs.
+	
+3) How to test
+	- Unit tests that follow the one requirement/one method rule have the following attributes that further define them as a unit test:
+		- Targeted: Unit tests that test one thing (including one set of inputs) at a time are targeted.
+		- Isolated: The code you are testing should be isolated from other code in the application as well as any external dependencies or events
+		- Repeatable & Predictable: A unit test should be capable of being run over and over and assuming that the code under test and the test itself have not changed, producing the same result.
+		- Independent: Generally speaking you have no guarantee that your unit tests are going to run in any specific order. Nor should your tests expect or require this.
+	- Tests should first fail in an appropriate manner when you first write it.
+	- Get the tests to pass
+	- After you writing several tests look for making the code more efficient and refactor.

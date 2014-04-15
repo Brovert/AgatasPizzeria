@@ -51,6 +51,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AwesomeCalculations.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AwesomeCalculations.feature</DependentUpon>
+    </Compile>
     <Compile Include="OrderPizza.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -60,6 +65,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="AwesomeCalculations.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>AwesomeCalculations.feature.cs</LastGenOutput>
+    </None>
     <None Include="OrderPizza.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>OrderPizza.feature.cs</LastGenOutput>

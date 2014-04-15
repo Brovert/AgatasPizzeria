@@ -19,21 +19,21 @@ namespace AgataPizzeria.Specs
     [System.CodeDom.Compiler.GeneratedCodeAttribute("TechTalk.SpecFlow", "1.9.0.77")]
     [System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     [NUnit.Framework.TestFixtureAttribute()]
-    [NUnit.Framework.DescriptionAttribute("Order Pizza")]
-    public partial class OrderPizzaFeature
+    [NUnit.Framework.DescriptionAttribute("Awesome Calculations")]
+    public partial class AwesomeCalculationsFeature
     {
         
         private static TechTalk.SpecFlow.ITestRunner testRunner;
         
-#line 1 "OrderPizza.feature"
+#line 1 "AwesomeCalculations.feature"
 #line hidden
         
         [NUnit.Framework.TestFixtureSetUpAttribute()]
         public virtual void FeatureSetup()
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner();
-            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Order Pizza", "In order to get some delicious pizza\nAs a hungry customer\nI want to be able to or" +
-                    "der one or more pizzas", ProgrammingLanguage.CSharp, ((string[])(null)));
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Awesome Calculations", "In order to get the results of something really complicated\nAs a math idiot\nI wan" +
+                    "t to use the awesome calculation functions", ProgrammingLanguage.CSharp, ((string[])(null)));
             testRunner.OnFeatureStart(featureInfo);
         }
         
@@ -63,6 +63,27 @@ namespace AgataPizzeria.Specs
         public virtual void ScenarioCleanup()
         {
             testRunner.CollectScenarioErrors();
+        }
+        
+        [NUnit.Framework.TestAttribute()]
+        [NUnit.Framework.DescriptionAttribute("Add two numbers")]
+        [NUnit.Framework.CategoryAttribute("mytag")]
+        public virtual void AddTwoNumbers()
+        {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Add two numbers", new string[] {
+                        "mytag"});
+#line 7
+this.ScenarioSetup(scenarioInfo);
+#line 8
+ testRunner.Given("I have entered a number greater", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 9
+ testRunner.And("I have entered 70 into the calculator", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 10
+ testRunner.When("I press add", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 11
+ testRunner.Then("the result should be 120 on the screen", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
+            this.ScenarioCleanup();
         }
     }
 }

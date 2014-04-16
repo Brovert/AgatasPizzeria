@@ -39,6 +39,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ILoginService.cs" />
     <Compile Include="IPizzaData.cs" />
     <Compile Include="Pizza.cs" />
     <Compile Include="PizzaSize.cs" />

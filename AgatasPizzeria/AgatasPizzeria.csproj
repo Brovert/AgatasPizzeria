@@ -60,6 +60,7 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="AppBootstrapper.cs" />
+    <Compile Include="CalculatorViewModel.cs" />
     <Compile Include="IShell.cs" />
     <Compile Include="OrderViewModel.cs" />
     <Compile Include="ShellViewModel.cs" />

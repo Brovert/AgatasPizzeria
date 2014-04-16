@@ -40,6 +40,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="IPizzaData.cs" />
+    <Compile Include="Pizza.cs" />
     <Compile Include="PizzaSize.cs" />
     <Compile Include="PizzaTopping.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

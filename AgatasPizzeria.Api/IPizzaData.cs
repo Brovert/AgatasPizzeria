@@ -4,7 +4,7 @@ namespace AgatasPizzeria.Api {
     public interface IPizzaData {
         List<PizzaSize> GetSizes();
         List<PizzaTopping> GetToppings();
-        bool PlaceOrder();
-        bool ValidateCoupon();
+        bool PlaceOrder(List<Pizza> pizzas);
+        bool ValidateCoupon(string couponCode);
     }
 }

@@ -1,0 +1,11 @@
+Verify that when the screen loads I have the three pizza size options
+Verify that when the screen loads I have all the options for toppings
+Verify that when the screen loads the new pizza size defaults to medium
+Verify when I add a new pizza the subtotal updates
+Verify I can see a total pizza count
+Verify when I add a new pizza the total pizza count updates
+Verify I can add a coupon code
+Verify if the coupon code is valid then it discounts the pizza by $2.00
+Verify if the coupon code is not valid then there is not discount
+Verify when I click to place the order my order will be placed and a success message will be shown
+Verify if the place order fails an order message will be shown
